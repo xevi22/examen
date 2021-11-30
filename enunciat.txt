@@ -1,0 +1,71 @@
+Hola,
+
+aquest és l'enunciat per l'examen. 
+
+Primera part, les preguntes valen 0,5 punts. Una resposta incorrecta resta 0,5 punts.
+
+1.- ¿En qué lugar se ejecuta generalmente el código JavaScript?
+
+a) Servidor
+b) Cliente (en el propio navegador de internet)
+
+2.- ¿Cuáles de estas son marcas para la inserción del código JavaScript en las páginas HTML?
+
+a) <javascript_code > y </javascript_code>
+b) <script> y </script>
+c) <?script> y <script?>
+
+3.- ¿Cuál es la instrucción usada para devolver un valor en una función de JavaScript?
+
+a) Send
+b) Return
+c) Value
+
+4.- Para terminar las instrucciones en Javascript se utiliza:
+
+a) Un punto y coma
+b) Un punto y coma o un salto de línea
+c) La sentencia End.
+
+5.- ¿Cuál de estas instrucciones está correctamente escrita en Javascript?
+
+a) if (a==0) alert (a);
+b) if (a=0) print a;
+c) if (a==0) { print [a] }
+d) if (a==0): print a;
+
+6.- Para concatenar cadenas de caracteres en Javascript se usa el carácter:
+
+a) & (ampersand)
+b) + (más)
+c) . (punto)
+d) * (por)
+
+7.- ¿Todo el código JavaScript debe estar por fuerza dentro del archivo .html de la página web?
+
+a) Sí, porque si no, no se podría ejecutar en el navegador
+b) No, es posible incluir código JavaScript en ficheros de extensión .js y hacer un “include” en la sección HEAD de la página HTML
+
+
+Segona part:
+
+1.- Cloneu el repositrori en una carpeta personal.
+
+2.- Declareu una variable global "usersArray" inicialitzada com un array.
+
+3.- Afegiu un "event listener" per quan l'usuari faci click al button "afegir usuari principal".
+	- Demaneu al usuari que introduexi un nom i una edat, amb una finestra popup.
+	- Crear un objecte amb aquesta informació i mostrar-la al paràgraf "mainUser". 
+	- Utilitzant localStorage, guardar l'objecte "usuariPrincipal" amb la key "mainUser".
+
+4.- Afegiu un "event listener" per quan l'usuari faci click al button "afegir usuari secundari".
+	- Demaneu al usuari que introduexi un nom i una edat, amb una finestra popup.
+	- Crear un objecte amb aquesta informació i afegir-la a l'array "usersArray". 
+	- mostar al paràgraf "secUsers" el contigut de l'array.
+	  recordeu afegir salts de linia després de cada usuari.
+
+6.- Utilitzant localStorage, guardar l'array "usersArray" amb la key "secUsers".
+	- aixó quan l'usuari faci click a "afegir usuari secundari".
+
+7.- Al iniciar l'aplicació, que carregui els valors de localStorage a pantalla.
+ 
